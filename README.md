@@ -45,8 +45,10 @@ npm install discord.js @discordjs/voice @aws-sdk/client-transcribe-streaming pri
 1. [Discord Developer Portal](https://discord.com/developers/applications)에서 새 애플리케이션 생성
 2. Bot 섹션에서 봇 생성 및 토큰 발급
 3. 다음 봇 권한 활성화:
-   - Read Messages/View Channels
+   - View Channels
    - Send Messages
+   - Manage Messages
+   - Read Messages History
    - Connect
    - Speak
 4. OAuth2 URL 생성하여 원하는 서버에 봇 초대
